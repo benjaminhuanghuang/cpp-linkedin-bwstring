@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // for MacOS
+            "name": "(lldb) Launch exe",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceRoot}/main.exe",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "make",
+        }
+    ]
+}
